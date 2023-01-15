@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Site</title>
+    <style>
+        .pos-center{
+            width:100vw;
+            height:100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="pos-center">
+        <button onclick="increment()">
+            Click Me
+        </button>
+    </div>
+
+    <script>
+        var counter=0
+        function increment(){
+            counter++;
+            console.log(counter)
+        }
+    </script>
+
+</body>
+</html>
